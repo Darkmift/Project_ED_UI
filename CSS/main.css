@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #131416;
+}
+
+body::after {
+  content: "";
+  background: url("../Lib/images/bodybg.jpg") no-repeat center fixed;
+  background-size: 100%;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.block-style-1 {
+  font-family: 'Sintony';
+  background-color: #00000D;
+}
+
+.text-bold {
+  font-weight: 900;
+}
+
+.hoverBtn>li>a:hover {
+  background-color: #ff7100;
+  color: #00000D !important;
+}
