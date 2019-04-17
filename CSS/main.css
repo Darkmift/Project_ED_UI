@@ -1,6 +1,7 @@
 body {
   display: flex;
-  min-height: 100vh;
+  height: 100%;
+  position: relative;
   flex-direction: column;
   background-color: #131416;
 }
@@ -23,15 +24,15 @@ main {
 }
 
 .block-style-1 {
-  font-family: 'Sintony';
-  background-color: #00000D;
+  font-family: "Sintony";
+  background-color: #00000d;
 }
 
 .text-bold {
   font-weight: 900;
 }
 
-.hoverBtn>li>a:hover {
+.hoverBtn > li > a:hover {
   background-color: #ff7100;
-  color: #00000D !important;
+  color: #00000d !important;
 }
